@@ -125,7 +125,7 @@ img {
 
 header {
   height: 100vh;
-  padding-top: 3rem;
+  padding-top: 1rem;
   overflow: hidden;
 }
 
@@ -149,7 +149,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 5rem;
 }
 
 .me {
@@ -230,4 +230,15 @@ nav a:hover {
 nav a.active {
   background: var(--color-bg);
   color: var(--color-white);
+}
+
+.nav {
+  display: flex;
+  margin:  0 3.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  font-weight: var(--font-semibold);
 }
